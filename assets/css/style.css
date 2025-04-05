@@ -13,7 +13,8 @@ body {
 #cardWrapper {
     display: flex;
     flex-wrap: wrap;
-    width: 70%; /* Fixed width to keep cards visible */
+    align-content: flex-start;
+    width: 70%; 
 }
 
 nav {
@@ -35,6 +36,7 @@ nav >h3 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
     width: 210px;
+    height: 370px;
 }
 
 .card>img {
@@ -118,7 +120,7 @@ nav >h3 {
     padding-top: 15px;
 }
 
-/* New styles for cart items with images */
+
 .cart-item {
     display: flex;
     align-items: center;
@@ -151,7 +153,7 @@ nav >h3 {
 
 .list_items {
     display: none;
-    max-height: 400px;
+
 }
 
 .cart-item-actions {
